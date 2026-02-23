@@ -13,6 +13,7 @@ export default function Skills({ dark }) {
     <div
       id="skills"
       className="px-30 max-[970px]:px-20 max-[632px]:px-10  mt-40 mb-20"
+      data-aos="zoom-in"
     >
       <h1 className="text-5xl max-[450px]:text-4xl text-center font-semibold">
         Ko'nikmalar

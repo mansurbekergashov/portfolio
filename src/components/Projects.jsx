@@ -23,8 +23,8 @@ export default function Projects() {
         Loyihalar
       </h1>
 
-      <div className="grid grid-cols-3 max-md:grid-cols-1 gap-y-8 gap-x-14 mt-20">
-        <Card className="relative mx-auto w-full max-w-sm">
+      <div className="grid grid-cols-3 max-md:grid-cols-1 gap-y-8 gap-x-14 mt-20" data-aos="zoom-in">
+        <Card className="relative mx-auto w-full max-w-sm" data-aos="zoom-in">
           <div className="absolute inset-0 z-30 aspect-video" />
           <img
             src={translator}
@@ -60,7 +60,7 @@ export default function Projects() {
           </CardFooter>
         </Card>
 
-        <Card className="relative mx-auto w-full max-w-sm">
+        <Card className="relative mx-auto w-full max-w-sm" data-aos="zoom-in">
           <div className="absolute inset-0 z-30 aspect-video" />
           <img
             src={memoryGame}
@@ -95,7 +95,7 @@ export default function Projects() {
           </CardFooter>
         </Card>
 
-        <Card className="relative mx-auto w-full max-w-sm">
+        <Card className="relative mx-auto w-full max-w-sm" data-aos="zoom-in">
           <div className="absolute inset-0 z-30 aspect-video " />
           <img
             src={contextStore}

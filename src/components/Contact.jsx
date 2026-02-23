@@ -6,6 +6,7 @@ export default function Contact() {
     <div
       id="contact"
       className="px-30 max-[970px]:px-20 max-[632px]:px-10 mt-40 mb-10"
+      data-aos="zoom-in"
     >
       <div className="text-center">
         <h1 className="text-5xl max-[450px]:text-4xl font-semibold">
