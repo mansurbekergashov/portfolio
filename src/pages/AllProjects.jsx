@@ -200,7 +200,7 @@ export default function AllProjects() {
         <CardHeader>
           <CardTitle>Password Generator</CardTitle>
           <CardDescription>
-            Xavfsizligingiz uchun murakkab parol yaratib beruvchi yordamchingiz.
+            Xavfsizligingiz uchun murakkab parol hosil beruvchi yordamchingiz.
             Parol random orqali hosil qilinadi
           </CardDescription>
           <div className="flex gap-2 mt-4 -mb-2">
