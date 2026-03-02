@@ -112,7 +112,7 @@ export default function Projects() {
           <CardFooter className="flex flex-wrap gap-4 mt-auto mb-4">
             <Button variant="outline">
               <a
-                href="https://invoices-app-by-ergashov.netlify.app/"
+                href="https://github.com/mansurbekergashov/Context-Store"
                 target="_blank"
               >
                 Ko'rish
