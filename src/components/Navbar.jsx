@@ -27,22 +27,22 @@ export default function Navbar({ dark, setDark }) {
       </HashLink>
       <ul className="flex gap-6 max-md:hidden justify-between max-[810px]:text-[14px]">
         <li>
-          <HashLink smooth to="/#home">
+          <HashLink smooth to="/#home" className="hover:opacity-60 transition duration-150">
             Bosh sahifa
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="/#projects">
+          <HashLink smooth to="/#projects" className="hover:opacity-60 transition duration-150">
             Loyihlar
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="/#skills">
+          <HashLink smooth to="/#skills" className="hover:opacity-60 transition duration-150">
             Ko'nikmalar
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="/#contact">
+          <HashLink smooth to="/#contact" className="hover:opacity-60 transition duration-150">
             Bog'lanish
           </HashLink>
         </li>
